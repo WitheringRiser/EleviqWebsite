@@ -13,14 +13,16 @@
 }
 
 .eleviq__header-content h1{
+    margin-left: 10px;
     font-family: var(--font-family);
     font-weight: 800;
-    font-size: 62px;
+    font-size: 48px;
     line-height: 75px;
     letter-spacing: -0.04em;
 }
 
 .eleviq__header-content p{
+    margin-left: 10px;
     font-family: var (--font-family);
     font-style: normal;
     font-weight: normal;
@@ -32,6 +34,7 @@
 }
 
 .eleviq__header-content__input{
+    margin-left: 10px;
     width: 100%;
     margin: 2rem 0 1rem;
 
@@ -39,22 +42,26 @@
 }
 
 .eleviq__header-content__input input{
+    margin-left: 10px;
+    max-width: 50vw;
     flex: 2;
     width: 100%;
     min-height: 50px;
-    font-family: var (--font-family);
+    font-family: var(--font-family);
     font-size: 20px;
     line-height: 27px;
-    background: var(--color-footer);
-    border: 2px solid var (--color-footer);
+    background: #dddddd;
+    border: 2px solid var(--color-footer);
     padding: 0 1rem;
     outline: none;
     color: #fff;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .eleviq__header-content__input button{
+    max-width: 20vw;
     flex: 0.6;
     width: 100%;
     min-height: 50px;
@@ -62,7 +69,7 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 27px;
-    background: #ff4820;
+    background: var(--color-button);
     color: #fff;
     cursor: pointer;
     outline: none;

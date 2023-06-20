@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: var(--color-nav);
 
     padding: 1.5rem 2rem;
 }
@@ -11,6 +12,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    
 }
 
 .eleviq__navbar-links_logo {
@@ -50,7 +52,7 @@
 .eleviq__navbar-menu_container button{
     padding: 0.75rem 1.25rem;
     color: #ffffff;
-    background: #5957dd;
+    background: var(--color-button);
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
@@ -79,7 +81,7 @@
     flex-direction: column;
 
     text-align: end;
-    background: var(--color-footer);
+    background: var(--color-nav);
     padding: 2rem;
     position: absolute;
     top: 40px;
