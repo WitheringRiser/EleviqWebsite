@@ -107,3 +107,28 @@
         display: flex;
     }
 }
+
+@media screen and (max-width: 700px){
+    .eleviq__navbar{
+        padding: 2rem, 4rem;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .eleviq__narbar{
+        padding: 2rem;
+    }
+
+    .eleviq__navbar-sign{
+        display: none;
+    }
+
+    .eleviq__navbar-menu_container {
+        top: 20px;
+    }
+
+    .eleviq__navbar-menu_container-links-sign{
+        display: block;
+    }
+
+}
