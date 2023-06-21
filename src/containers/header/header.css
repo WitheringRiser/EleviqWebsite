@@ -11,7 +11,6 @@
     flex-direction: column;
 
     margin-right: 5rem;
-    margin-left: 5rem;
 }
 
 .eleviq__header-content h1{
@@ -91,8 +90,6 @@
     
     max-width: 45vw;
     max-height: 45vw;
-    min-width: 0px;
-    min-height: 0px;
     
 }
 
@@ -103,8 +100,6 @@
 
     .eleviq__header-content{
         margin: 0rem 0 3rem;
-        margin-left: 3rem;
-        margin-right: 3rem;
     }
 
     .eleviq__header-image img{
@@ -131,12 +126,6 @@
         line-height: 26px;
     }
 
-    .eleviq__header-content{
-        margin: 0 0 2rem;
-        margin-left: 2rem;
-        margin-right: 2rem;
-    }
-
     
 }
 
@@ -158,9 +147,4 @@
         line-height: 18px;
     }
 
-    .eleviq__header-content{
-        margin: 0 0 1.5rem;
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-    }
 }
