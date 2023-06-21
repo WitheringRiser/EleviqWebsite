@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css';
-import mountains1 from '../../assets/mountains-1.jpg';
+import ai from '../../assets/person-learning-ai.png';
 
 const Header = () => {
 	return (
@@ -12,10 +12,9 @@ const Header = () => {
 					<input type = "email" placeholder = "Your email"></input>
 					<button type = "button">Enter</button>
 				</div>
-				
-				<div className = "eleviq__header-content__mountains1">
-					<img src = {mountains1} alt = "mountains1"/>
-				</div>
+			</div>
+			<div className = "eleviq__header-image">
+				<img src = {ai} alt = "ai"/>
 			</div>
 		</div>
 		)
