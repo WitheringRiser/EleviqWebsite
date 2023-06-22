@@ -75,6 +75,10 @@
     border-bottom-right-radius: 5px;
 }
 
+.eleviq__header-content__input-feedback {
+    line-height: 0px;
+}
+
 
 .eleviq_header-image{
     flex: 1;
