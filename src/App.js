@@ -2,7 +2,7 @@ import logo from './assets/logo-color.png';
 import React from 'react';
 import './App.css';
 import {Brand, CTA, Feature, Navbar} from './components';
-import {Footer, Header, Blog, Courses, Possibility, Profitable} from './containers';
+import {Footer, Header, Blog, Course, Possibility, Features} from './containers';
 
 function App() {
   return (
@@ -11,9 +11,9 @@ function App() {
         <Navbar/>
         <Header/>
       </div>
-    <Courses/>
+    <Course/>
+    <Features/>
     <Brand/>
-    <Profitable/>
     <Possibility/>
     <CTA/>
     <Blog/>

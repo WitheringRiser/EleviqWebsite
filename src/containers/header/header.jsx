@@ -8,12 +8,6 @@ const url = "https://eleviq.us17.list-manage.com/subscribe/post?u=bce71f9646b44f
 
 const Header = () => {
 
-	const handleFormSubmission = formData => {
-		MailchimpSubscribe(url)
-		// Handle the form submission here
-		console.log(formData); // Replace with your logic
-		};
-
   	return (
     <>
       <div className="eleviq__header section__padding" id="home">
