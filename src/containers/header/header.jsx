@@ -10,7 +10,7 @@ const Header = () => {
 
   	return (
     <>
-      <div className="eleviq__header section__padding" id="home">
+      <div className="eleviq__header section__padding" id="mail">
         <div className="eleviq__header-content">
           <h1 className="text">Join our Mailing List for Exclusive Discounts</h1>
           <p>Get 70% off by entering your email before we launch August 12th</p>

@@ -28,10 +28,10 @@ const featuresData = [
 ];
 
 const Features = () => (
-  <div className="eleviq__features section__padding" id="features">
+  <div className="eleviq__features section__padding" id="course">
     <div className="eleviq__features-heading">
       <h1 className="gradient__text">Build a Profitable Game Business</h1>
-      <p>Course: How to Build a Game Business</p>
+      <p><b>Course: How to Build a Game Business</b></p>
     </div>
     <div className="eleviq__features-container">
       {featuresData.map((item, index) => (

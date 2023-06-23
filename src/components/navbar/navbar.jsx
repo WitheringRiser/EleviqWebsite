@@ -6,18 +6,17 @@ import logo from '../../assets/logo-color-cropped-28-5.png';
 const Menu = () => (
     <>
     <p><a href = "#home">Home</a></p>
-    <p><a href = "#courses">Courses</a></p>
-    <p><a href = "#pricing">Pricing</a></p>
-    <p><a href = "#blog">Blog</a></p>
-    <p><a href = "#FAQ">FAQ</a></p>
-    <p><a href = "#contactUs">Contact Us</a></p>
+    <p><a href = "#course">Course</a></p>
+    <p><a href = "#ChatGPT">Using ChatGPT</a></p>
+    <p><a href = "#learn">Instructors</a></p>
+    <p><a href = "#mail">Mailing List</a></p>
     </>
 )
 
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
 	return (
-		<div className = "eleviq__navbar">
+		<div className = "eleviq__navbar" id="#home">
             <div className = "eleviq__navbar-links">
                 <div className = "eleviq__navbar-links_logo">
                     <img src = {logo} alt = "logo"/>

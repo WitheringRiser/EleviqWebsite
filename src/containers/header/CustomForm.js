@@ -2,7 +2,7 @@ import './header.css';
 
 const url = "https://eleviq.us17.list-manage.com/subscribe/post?u=bce71f9646b44fe898859fbd1&amp;id=103a7871c2&amp;f_id=00b557e0f0";
 
-// simplest form (only email)
+
 const CustomForm = ({ status, message, className, style, onSubmitted }) => {
   let input;
   const submit = () =>
@@ -41,6 +41,7 @@ const CustomForm = ({ status, message, className, style, onSubmitted }) => {
     
   );
 };
+
 
 
 

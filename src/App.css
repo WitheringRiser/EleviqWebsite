@@ -48,7 +48,7 @@ a {
 }
 
 .section__margin {
-  margin: 3rem 4.5rem;
+  margin: 0rem 0rem;
 }
 
 
@@ -58,7 +58,7 @@ a {
   }
 
   .section__margin {
-    margin: 3rem;
+    
   }
 }
 
@@ -68,6 +68,6 @@ a {
   }
 
   .section__margin {
-    margin: 3rem 1.5rem;
+  
   }  
 }
