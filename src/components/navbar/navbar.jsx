@@ -5,7 +5,7 @@ import logo from '../../assets/logo-color-cropped-28-5.png';
 
 const Menu = () => (
     <>
-    <p><a href = "#home">Home</a></p>
+    <p><a href = "/">Home</a></p>
     <p><a href = "/courses">Course</a></p>
     <p><a href = "#ChatGPT">Using ChatGPT</a></p>
     <p><a href = "#learn">Instructors</a></p>
