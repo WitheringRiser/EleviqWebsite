@@ -6,7 +6,7 @@ const text_color_hex = "#dddddd";
 
 const Course = () => {
 	return (
-		<div className="eleviq__course section__margin">
+		<div className="eleviq__course section__padding">
 			<div className="eleviq__course-feature">
 			<Feature title="Our course" text="We'll first teach you how to design and develop a video game. Then we'll teach you to set up your business and sell your game successfully." text_color={text_color_hex}/>
 			</div>

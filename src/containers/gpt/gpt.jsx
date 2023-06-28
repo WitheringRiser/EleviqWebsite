@@ -4,7 +4,7 @@ import gptImage from '../../assets/gpt.png';
 
 const GPT = () => {
 	return (
-		<div className="eleviq__gpt section__margin" id="ChatGPT">
+		<div className="eleviq__gpt section__padding" id="ChatGPT">
 			<div className="eleviq__gpt-image">
 				<img src = {gptImage}/>
 			</div>

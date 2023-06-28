@@ -1,0 +1,16 @@
+body {
+    overflow-x: hidden;
+  }
+  
+
+.eleviq__video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem;
+    background-color: var(--color-bg);
+    margin-bottom: 0;
+  }
+  
+  .eleviq__video .react-player {
+  }

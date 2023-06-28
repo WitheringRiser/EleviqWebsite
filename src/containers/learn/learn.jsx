@@ -5,7 +5,7 @@ import learnImage from '../../assets/engineer.png';
 
 const Learn = () => {
 	return (
-		<div className="eleviq__learn section__margin" id="learn">
+		<div className="eleviq__learn section__padding" id="learn">
 			
 			<div className = "eleviq__learn-content">
 				<h1 className="gradient-text">Learn from People who Have Built.</h1>
