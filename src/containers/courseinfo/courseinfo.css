@@ -8,10 +8,12 @@
     margin-top: 5rem;
     width: 50%;
 
+    
 }
 
 .eleviq__courseinfo-container{
     font-family: var(--font-family);
+    
 }
 
 .eleviq__courseinfo-container h1{
@@ -28,6 +30,11 @@
 
 .eleviq__courseinfo-menu h2{
     font-family: var(--font-family);
+}
+
+.eleviq__courseinfo-learningoutcomes{
+    border: 3px solid var(--color-text);
+    margin: 2rem 2rem 2rem 2rem;
 }
 
 
