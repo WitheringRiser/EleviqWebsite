@@ -36,7 +36,7 @@ const Navbar = () => {
                 }
                 {toggleMenu && (
                     <div className="eleviq__navbar-menu_container scale-up-center">
-                        <div className = "eleviq_navbar-menu_container-links">
+                        <div className = "eleviq__navbar-menu_container-links">
                             <Menu/>
                             <div className = "eleviq__navbar-menu_container-links-sign">
                                 <p>Sign in</p>

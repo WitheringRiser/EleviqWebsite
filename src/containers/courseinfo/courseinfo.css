@@ -2,13 +2,11 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     background: var(--color-textbox-light);
     margin-right: auto;
     margin-top: 5rem;
     width: 50%;
-
-    
 }
 
 .eleviq__courseinfo-container{
@@ -18,24 +16,101 @@
 
 .eleviq__courseinfo-container h1{
     margin: 2rem 2rem 1rem 4rem;
-    font-size: 28px;
+    font-size: 30px;
+}
+
+.eleviq__courseinfo-container h2{
+    margin: 2rem 2rem 1rem 4rem;
+    font-size: 26px;
+}
+
+.eleviq__courseinfo-container h3{
+    margin: 0rem 2rem 1rem 4rem;
+    font-size: 20px;
 }
 
 .eleviq__courseinfo-container h4{
     margin: 0rem 2rem 1rem 4rem;
     font-size: 16px;
     flex-direction: row;
-    
+}
+
+.eleviq__courseinfo-container p{
+    margin: 0rem 2rem 1rem 4rem;
+    font-size: 16px;
 }
 
 .eleviq__courseinfo-menu h2{
     font-family: var(--font-family);
 }
 
-.eleviq__courseinfo-learningoutcomes{
+.eleviq__courseinfo-learningoutcomes1{
     border: 3px solid var(--color-text);
-    margin: 2rem 2rem 2rem 2rem;
+    margin: 4rem 4rem 4rem 4rem;
 }
 
+.eleviq__courseinfo-learningoutcomes2{
+    border: 3px solid var(--color-text);
+    margin: 4rem 4rem 4rem 4rem;
+}
+
+.eleviq__courseinfo-learningoutcomes2-dropdown1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.eleviq__courseinfo-learningoutcomes2-part1{
+    float: left;
+    align-items: center;
+}
+
+
+.eleviq__courseinfo-learningoutcomes2 p{
+    line-height: 16px;
+}
+
+.eleviq__courseinfo-menu{
+    margin-left : 2rem;
+    margin-right: 1rem;
+
+    position: relative;
+}
+
+.eleviq__courseinfo-menu svg{
+    cursor: pointer;
+}
+
+.eleviq__courseinfo-menu_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: start;
+    background: var(--color-textbox-light);
+    padding: 1rem;
+    top: 40px;
+    right: 100%; /* Shift the dropdown box all the way to the left */
+    transform: translateX(-220%); /* Bring it back into view */
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+  }
+  
+
+.eleviq__courseinfo-menu_container p{
+}
+
+.eleviq__courseinfo-menu_container-links p {
+    margin-left: 0;
+    white-space: nowrap; /* Prevents line breaks */
+    overflow: hidden; /* Hides overflowing text */
+    text-overflow: ellipsis; /* Truncates text with an ellipsis (...) */
+    max-width: 100%; /* Limits the width of the text */
+  }
+  
+
+.eleviq__courseinfo-menu_container-links-sign{
+}
 
 
