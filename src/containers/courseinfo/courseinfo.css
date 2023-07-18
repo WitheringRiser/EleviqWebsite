@@ -1,13 +1,26 @@
-.eleviq__courseinfo {
+.eleviq__ {
+    display: grid;
+    grid-template-columns: 65% 35%; /* Adjust the column widths */
+}
+  .eleviq__courseinfo {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: flex-start;
-    background: var(--color-textbox-light);
+    background: var(--color-bg);
     margin-right: auto;
     margin-top: 5rem;
-    width: 50%;
+    width: 70%; /* Adjust the width of the courseinfo box */
 }
+  
+.eleviq__buybox {
+    background: var(--color-bg); /* Customize the background color */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: sticky;
+}
+  
 
 .eleviq__courseinfo-container{
     font-family: var(--font-family);
@@ -15,23 +28,26 @@
 }
 
 .eleviq__courseinfo-container h1{
-    margin: 2rem 2rem 1rem 4rem;
+    margin: 2rem 0rem 1rem 4rem;
     font-size: 30px;
+    font-weight:600;
 }
 
 .eleviq__courseinfo-container h2{
-    margin: 2rem 2rem 1rem 4rem;
+    margin: 2rem 0rem 1rem 4rem;
     font-size: 26px;
+    font-weight:500;
 }
 
 .eleviq__courseinfo-container h3{
-    margin: 0rem 2rem 1rem 4rem;
+    margin: 0rem 0rem 1rem 4rem;
     font-size: 20px;
 }
 
 .eleviq__courseinfo-container h4{
-    margin: 0rem 2rem 1rem 4rem;
+    margin: 0rem 0rem 1rem 4rem;
     font-size: 16px;
+    font-weight: 800;
     flex-direction: row;
 }
 
@@ -46,12 +62,12 @@
 
 .eleviq__courseinfo-learningoutcomes1{
     border: 3px solid var(--color-text);
-    margin: 4rem 4rem 4rem 4rem;
+    margin: 4rem 0rem 4rem 4rem;
 }
 
 .eleviq__courseinfo-learningoutcomes2{
     border: 3px solid var(--color-text);
-    margin: 4rem 4rem 4rem 4rem;
+    margin: 4rem 0rem 4rem 4rem;
 }
 
 .eleviq__courseinfo-learningoutcomes2-dropdown1{
@@ -67,12 +83,23 @@
 
 
 .eleviq__courseinfo-learningoutcomes2 p{
-    line-height: 16px;
+    line-height: 36px;
+    margin: 0px;
 }
+
+.eleviq__courseinfo-learningoutcomes2 h3{
+    margin: 0px;
+}
+
+.eleviq__courseinfo-learningoutcomes2-accordion{
+    margin: 2rem;
+    
+}
+
 
 .eleviq__courseinfo-menu{
     margin-left : 2rem;
-    margin-right: 1rem;
+    margin-right: 0rem;
 
     position: relative;
 }
@@ -90,12 +117,12 @@
     background: var(--color-textbox-light);
     padding: 1rem;
     top: 40px;
-    right: 100%; /* Shift the dropdown box all the way to the left */
-    transform: translateX(-220%); /* Bring it back into view */
+    transform: translateX(-100px); /* Bring it back into view */
     margin-top: 0.5rem;
     margin-bottom: 1rem;
     border-radius: 5px;
   }
+  
   
 
 .eleviq__courseinfo-menu_container p{
@@ -111,6 +138,11 @@
   
 
 .eleviq__courseinfo-menu_container-links-sign{
+}
+
+.eleviq__buybox{
+    border: 3px solid var(--color-text);
+    margin: 4rem 4rem 4rem 0rem;
 }
 
 
