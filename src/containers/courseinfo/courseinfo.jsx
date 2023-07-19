@@ -149,98 +149,7 @@ const Menu2 = () => (
     </>
   )
 
-/* function DropDown1(){
 
-  const [toggleMenu, setToggleMenu] = useState(false);
-
-  return(
-    <CourseAccordion/>
-  )
-}
-
-function DropDown2(){
-
-    const [toggleMenu, setToggleMenu] = useState(false);
-  
-    return(
-      <div className = "eleviq__courseinfo-menu">
-          {toggleMenu
-              ? <RiArrowUpSLine color = '#333' size = {27} onClick={() => setToggleMenu(false)} />
-              : <RiArrowDownSLine color = '#333' size = {27} onClick={() => setToggleMenu(true)} />
-          }
-          {toggleMenu && (
-              <div className="eleviq__courseinfo-menu_container scale-up-center">
-                  <div className = "eleviq__courseinfo-menu_container-links">
-                      <Menu2/>
-                  </div>
-              </div>
-          )}
-      </div>
-    )
-  }
-
-  function DropDown3(){
-
-    const [toggleMenu, setToggleMenu] = useState(false);
-  
-    return(
-      <div className = "eleviq__courseinfo-menu">
-          {toggleMenu
-              ? <RiArrowUpSLine color = '#333' size = {27} onClick={() => setToggleMenu(false)} />
-              : <RiArrowDownSLine color = '#333' size = {27} onClick={() => setToggleMenu(true)} />
-          }
-          {toggleMenu && (
-              <div className="eleviq__courseinfo-menu_container scale-up-center">
-                  <div className = "eleviq__courseinfo-menu_container-links">
-                      <Menu3/>
-                  </div>
-              </div>
-          )}
-      </div>
-    )
-  }
-
-  function DropDown4(){
-
-    const [toggleMenu, setToggleMenu] = useState(false);
-  
-    return(
-      <div className = "eleviq__courseinfo-menu">
-          {toggleMenu
-              ? <RiArrowUpSLine color = '#333' size = {27} onClick={() => setToggleMenu(false)} />
-              : <RiArrowDownSLine color = '#333' size = {27} onClick={() => setToggleMenu(true)} />
-          }
-          {toggleMenu && (
-              <div className="eleviq__courseinfo-menu_container scale-up-center">
-                  <div className = "eleviq__courseinfo-menu_container-links">
-                      <Menu4/>
-                  </div>
-              </div>
-          )}
-      </div>
-    )
-  }
-
-  function DropDown5(){
-
-    const [toggleMenu, setToggleMenu] = useState(false);
-  
-    return(
-      <div className = "eleviq__courseinfo-menu">
-          {toggleMenu
-              ? <RiArrowUpSLine color = '#333' size = {27} onClick={() => setToggleMenu(false)} />
-              : <RiArrowDownSLine color = '#333' size = {27} onClick={() => setToggleMenu(true)} />
-          }
-          {toggleMenu && (
-              <div className="eleviq__courseinfo-menu_container scale-up-center">
-                  <div className = "eleviq__courseinfo-menu_container-links">
-                      <Menu5/>
-                  </div>
-              </div>
-          )}
-      </div>
-    )
-  } */
 
 
 export default function CourseInfo() {
@@ -274,36 +183,7 @@ export default function CourseInfo() {
                     <CourseAccordion/>
                   </div>
                   
-                  {/* <div className="eleviq__courseinfo-learningoutcomes2-part1">
-                      <h3>Part 1: Prompt Engineering</h3>
-                  </div>
-                  <div className="eleviq__courseinfo-learningoutcomes2-dropdown1">
-                      <DropDown1/>
-                  </div>
-                  <div className="eleviq__courseinfo-learningoutcomes2-part1">
-                      <h3>Part 2: Entrepreneurship Fundamentals</h3>
-                  </div>
-                  <div className="eleviq__courseinfo-learningoutcomes2-dropdown1">
-                      <DropDown2/>
-                  </div>
-                  <div className="eleviq__courseinfo-learningoutcomes2-part1">
-                      <h3>Part 3: Game Design</h3>
-                  </div>
-                  <div className="eleviq__courseinfo-learningoutcomes2-dropdown1">
-                      <DropDown3/>
-                  </div>
-                  <div className="eleviq__courseinfo-learningoutcomes2-part1">
-                      <h3>Part 4: Game Development</h3>
-                  </div>
-                  <div className="eleviq__courseinfo-learningoutcomes2-dropdown1">
-                      <DropDown4/>
-                  </div>
-                  <div className="eleviq__courseinfo-learningoutcomes2-part1">
-                      <h3>Part 5: Setting Up A Game Studio</h3>
-                  </div>
-                  <div className="eleviq__courseinfo-learningoutcomes2-dropdown1">
-                      <DropDown5/>
-                  </div> */}
+                  
               </div>
               
               <h2>Your instructors:</h2>
@@ -311,12 +191,24 @@ export default function CourseInfo() {
               <p>Hi I'm Lukas. I've built two web-based games and have experience building other software startups that have generated $350K revenue anually.</p>
               <h4>Jiajun Yu</h4>
               <p>Hello I'm Jiajun. I'm a second year masters student at Duke with a full-ride scholarship. I have a big passion in game design and development.</p>
+              <div className="eleviq__buyboxlower">
+                  <div className="eleviq__buyboxlower-content">
+                      <h2>How to Make a Game Company</h2>
+                      <h1><strike>$200</strike> <span className = "eleviq__buyboxlower-content-60"> $60</span></h1>
+                      <p>70% off for the beta launch</p>
+                      <p>14-day money-back guarunteed</p>
+                      <div className = "eleviq__buyboxlower-content__enroll">
+                          <button type="button"><h2>Enroll in Beta</h2></button>
+                     </div>
+                  </div>
+              </div>
           </div>
+          
       </div>
       <div className="eleviq__buybox">
           <div className="eleviq__buybox-content">
               <h2>How to Make a Game Company</h2>
-              <h1><strike>$200</strike> $60</h1>
+              <h1><strike>$200</strike> <span className = "eleviq__buybox-content-60"> $60</span></h1>
               <p>70% off for the beta launch</p>
               <p>14-day money-back guarunteed</p>
               <div className = "eleviq__buybox-content__enroll">

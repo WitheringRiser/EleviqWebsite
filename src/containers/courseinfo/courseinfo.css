@@ -14,13 +14,138 @@
 }
   
 .eleviq__buybox {
-    background: var(--color-bg); /* Customize the background color */
+
+    font-family: var(--font-family);
+    background: var(--color-blue); /* Customize the background color */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     position: sticky;
+    max-height: 20rem;
+    max-width: 20rem;
+
+    position: fixed;
+    top: 25%; /* Adjust the top position as needed */
+    right: 5rem; /* Adjust the right position as needed */
+    transform: translateY(-50%); /* Vertically center the box */
+    max-height: 20rem;
+    max-width: 20rem;
+
+    
+    border-radius: 7px;
+}
+
+.eleviq__buybox h2{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 500;
+    color: var(--color-text-light);
+}
+
+
+.eleviq__buybox-content-60{
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--color-text-light);
+}
+
+.eleviq__buybox h1{
+    font-size: 58px;
+    text-align: center;
+    font-weight: 700;
+    color: var(--color-subtext);
+}
+
+.eleviq__buybox p{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 450;
+    color: var(--color-text-light);
+}
+
+.eleviq__buybox-content__enroll {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
   
+
+.eleviq__buybox-content__enroll button{
+    padding: 0.75rem 0.75rem;
+    color: #ffffff;
+    background: var(--color-subtext);
+    font-family: var(--font-family);
+    line-height: 25px;
+    border-radius: 5px;
+    outline: var(--color-text-light);
+    cursor: pointer;
+
+    margin-bottom: 0.75rem;
+    
+}
+
+
+.eleviq__buyboxlower {
+    background: var(--color-blue); /* Customize the background color */
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    position: sticky;
+    max-height: 20rem;
+    max-width: 20rem;
+
+    border-radius: 7px;
+}
+
+.eleviq__buyboxlower h2{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 500;
+    color: var(--color-text-light);
+}
+
+
+.eleviq__buyboxlower-content-60{
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--color-text-light);
+}
+
+.eleviq__buyboxlower h1{
+    font-size: 58px;
+    text-align: center;
+    font-weight: 700;
+    color: var(--color-subtext);
+}
+
+.eleviq__buyboxlower p{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 450;
+    color: var(--color-text-light);
+}
+
+.eleviq__buyboxlower-content__enroll {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+
+.eleviq__buyboxlower-content__enroll button{
+    padding: 0.75rem 0.75rem;
+    color: #ffffff;
+    background: var(--color-subtext);
+    font-family: var(--font-family);
+    line-height: 25px;
+    border-radius: 5px;
+    outline: var(--color-text-light);
+    cursor: pointer;
+
+    
+}
 
 .eleviq__courseinfo-container{
     font-family: var(--font-family);
@@ -73,7 +198,7 @@
 .eleviq__courseinfo-learningoutcomes2-dropdown1{
     display: flex;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .eleviq__courseinfo-learningoutcomes2-part1{
@@ -145,4 +270,212 @@
     margin: 4rem 4rem 4rem 0rem;
 }
 
+
+@media screen and (max-width: 1200px) {
+    .eleviq__buybox h2{
+        font-size: 30px;
+    }
+    
+    
+    .eleviq__buybox-content-60{
+        font-size: 30px;
+    }
+    
+    .eleviq__buybox h1{
+        font-size: 46px;
+    }
+    
+    .eleviq__buybox p{
+        font-size: 14px;
+    }
+
+    .eleviq__buybox {
+        max-height: 18rem;
+        max-width: 18rem;
+    }
+
+    .eleviq__buybox-content__enroll button{
+        margin-top: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+
+    .eleviq__courseinfo-learningoutcomes1{
+        margin-left: 1rem;
+    }
+
+    .eleviq__courseinfo-learningoutcomes2{
+        margin-left: 1rem;
+    }
+
+    .eleviq__courseinfo-container h1{
+        margin: 1rem 0rem 0.5rem 2rem;
+    }
+    
+    .eleviq__courseinfo-container h2{
+        margin: 1rem 0rem 0.5rem 2rem;
+    }
+    
+    .eleviq__courseinfo-container h3{
+        margin: 0rem 0rem 0.5rem 2rem;
+    }
+    
+    .eleviq__courseinfo-container h4{
+        margin: 0rem 0rem 0.5rem 2rem;
+    }
+    
+    .eleviq__courseinfo-container p{
+        margin: 0rem 1rem 0.5rem 2rem;
+    }
+
+    .eleviq__ {
+        display: default;
+        grid-template-columns: 100% 0%; /* Adjust the column widths */
+    }
+
+    .eleviq__courseinfo{
+        width: 92%;
+    }
+
+    .eleviq__buybox {
+        display: none;
+        
+    }
+
+    .eleviq__buyboxlower{
+        display: flex;
+        margin: auto;
+        margin-top: 5rem;
+    }
+
+    .eleviq__buyboxlower h2{
+        font-size: 36px;
+        font-weight: 500;
+        margin: 0;
+    }
+    
+    
+    .eleviq__buyboxlower-content-60{
+        font-size: 36px;
+        font-weight: 700;
+        margin: 0;
+    }
+    
+    .eleviq__buyboxlower h1{
+        font-size: 58px;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .eleviq__buyboxlower p{
+        font-size: 16px;
+        font-weight: 450;
+        margin: 0;
+    }
+    
+    .eleviq__buyboxlower-content__enroll {
+        margin: 0;
+        margin-top: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    
+    .eleviq__buyboxlower-content__enroll button{
+        padding: 0.75rem 0.75rem;
+        color: #ffffff;
+        background: var(--color-subtext);
+        font-family: var(--font-family);
+        line-height: 25px;
+        border-radius: 5px;
+        outline: var(--color-text-light);
+        cursor: pointer;
+        margin-bottom: 1rem;
+    
+        
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+
+    .eleviq__courseinfo-container h1{
+        margin: 1rem 0rem 0.5rem 1rem;
+        font-size: 26px;
+        font-weight:500;
+    }
+    
+    .eleviq__courseinfo-container h2{
+        margin: 1rem 0rem 0.5rem 1rem;
+        font-size: 22px;
+        font-weight:450;
+    }
+    
+    .eleviq__courseinfo-container h3{
+        margin: 0rem 0rem 0.5rem 1rem;
+        font-size: 18px;
+    }
+    
+    .eleviq__courseinfo-container h4{
+        margin: 0rem 0rem 0.5rem 1rem;
+        font-size: 13.5px;
+        font-weight: 700;
+        flex-direction: row;
+    }
+    
+    .eleviq__courseinfo-container p{
+        margin: 0rem 1rem 0.5rem 2rem;
+        font-size: 13.5px;
+    }
+
+    .eleviq__buyboxlower h2{
+        font-size: 31px;
+        margin: 0;
+    }
+    
+    
+    .eleviq__buyboxlower-content-60{
+        font-size: 28px;
+        margin: 0;
+    }
+    
+    .eleviq__buyboxlower h1{
+        font-size: 42px;
+        margin: 0;
+    }
+    
+    .eleviq__buyboxlower p{
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .eleviq__buyboxlower {
+        max-height: 16rem;
+        max-width: 16rem;
+    }
+
+    .eleviq__buyboxlower-content__enroll button{
+        margin-top: 0rem;
+    }
+
+    .eleviq__courseinfo-learningoutcomes1{
+        margin-top: 3rem;
+        margin-left: 0rem;
+    }
+
+    .eleviq__courseinfo-learningoutcomes2{
+        margin-left: 0rem;
+    }
+
+    .eleviq__{
+        margin-top: 0;
+    }
+
+    .eleviq__courseinfo-learningoutcomes2 p{
+        line-height: 26px;
+    }
+}
 

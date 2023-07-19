@@ -12,7 +12,7 @@ export default function Video() {
                 url={VIDEO_PATH}
                 controls={true}
                 width="80vw"
-                height="96vh"
+                height="45vw"
             />
         </div>
 
