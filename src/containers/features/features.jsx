@@ -6,7 +6,7 @@ const text_color_hex = "#333333";
 
 const featuresData = [
   {
-    title: 'Prompt Engineering',
+    title: 'ChatGPT Optimization',
     text: "We will teach you how to leverage ChatGPT to save you time at every step. No need to spend hours brainstorming, debugging, or setting up a marketing strategy.",
 	text_color: text_color_hex
   },
@@ -30,8 +30,8 @@ const featuresData = [
 const Features = () => (
   <div className="eleviq__features section__padding" id="course">
     <div className="eleviq__features-heading">
-      <h1 className="gradient__text">Build a Profitable Game Business</h1>
-      <p><b>Course: How to Build a Game Business</b></p>
+      <h1 className="gradient__text">Make a Profitable Game Company</h1>
+      <p><b>Course: How to Make a Game Company</b></p>
     </div>
     <div className="eleviq__features-container">
       {featuresData.map((item, index) => (

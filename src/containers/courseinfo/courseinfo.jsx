@@ -6,6 +6,8 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 
+const gumroadProductLink = 'https://eleviq.gumroad.com/l/how-to-make-a-game-company';
+
 function CourseAccordion() {
   return (
     <div>
@@ -15,7 +17,7 @@ function CourseAccordion() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography><h3>Part 1: Prompt Engineering</h3></Typography>
+          <Typography><h3>Part 1: ChatGPT Optimization</h3></Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -160,10 +162,11 @@ export default function CourseInfo() {
           <div className="eleviq__courseinfo-container">
               <h1>Course: How to Make a Game Company</h1>
               <h4>You'll learn how to discover, develop, setup, and sell your game as part of your own game studio. Enroll today for a limited-time discount!</h4>
+              <p>If you were to learn all this independently, it would take 100 hours piecemealing sources of design, development, business, and ChatGPT. And then 100 hours of trial and error as you realize some pieces don't fit, you've missed context, and so on. We've made it easy to learn, easy to remember, and easy to put into practice.</p>
               <div className="eleviq__courseinfo-learningoutcomes1">
                   <h2>What you'll learn:</h2>
                   <p>✓ Resolve game issues with ChatGPT</p>
-                  <p>✓ Prompt engineering with ChatGPT</p>
+                  <p>✓ Question optimization with ChatGPT</p>
                   <p>✓ Understand what direction to take with ChatGPT</p>
                   <p>✓ Create your entire marketing plan with ChatGPT</p>
                   <p>✓ Find and brainstorm any ideas with ChatGPT</p>
@@ -203,16 +206,15 @@ export default function CourseInfo() {
                   </div>
               </div>
           </div>
-          
       </div>
       <div className="eleviq__buybox">
           <div className="eleviq__buybox-content">
               <h2>How to Make a Game Company</h2>
               <h1><strike>$200</strike> <span className = "eleviq__buybox-content-60"> $60</span></h1>
               <p>70% off for the beta launch</p>
-              <p>14-day money-back guarunteed</p>
+              <p>14-day money-back guaruntee</p>
               <div className = "eleviq__buybox-content__enroll">
-                  <button type="button"><h2>Enroll in Beta</h2></button>
+                  <button type="button"><h2><a href={gumroadProductLink} target="_blank" rel="noopener noreferrer">Enroll in Beta</a></h2></button>
               </div>
           </div>
       </div>

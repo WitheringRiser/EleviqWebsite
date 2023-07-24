@@ -3,6 +3,8 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css';
 import logo from '../../assets/logo-color-cropped-28-5.png';
 
+const gumroadProductLink = 'https://eleviq.gumroad.com/l/how-to-make-a-game-company';
+
 const Menu = () => (
     <>
     <p><a href = "/">Home</a></p>
@@ -26,8 +28,7 @@ const Navbar = () => {
                 </div>
             </div>
 			<div className = "eleviq__navbar-sign">
-                <p>Sign in</p>
-                <button type="button">Sign Up</button>
+                <button type="button"><a href={gumroadProductLink} target="_blank" rel="noopener noreferrer">Enroll in Beta</a></button>
             </div>
             <div className = "eleviq__navbar-menu">
                 {toggleMenu
@@ -39,8 +40,7 @@ const Navbar = () => {
                         <div className = "eleviq__navbar-menu_container-links">
                             <Menu/>
                             <div className = "eleviq__navbar-menu_container-links-sign">
-                                <p>Sign in</p>
-                                <button type="button">Sign Up</button>
+                                <button type="button"><a href={gumroadProductLink} target="_blank" rel="noopener noreferrer">Enroll in Beta</a></button>
                             </div>
                         </div>
                     </div>

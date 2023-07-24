@@ -16,7 +16,7 @@ const Course = () => {
 			</div>
 			<div className="eleviq__course-container">
 				<Feature title="Quick instructor responses" text="Get your questions answered in hours, not days." text_color = {text_color_hex}/>
-				<Feature title="12+ hours" text="The perfect length to keep you focused yet encourage you to explore on your own." text_color={text_color_hex}/>
+				<Feature title="8+ hours" text="The perfect length to keep you focused yet encourage you to explore on your own." text_color={text_color_hex}/>
 				<Feature title="30+ modules" text="Organized to save you time. Find what you need, when you need it." text_color={text_color_hex}/>
 			</div>
 		</div>

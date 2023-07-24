@@ -6,9 +6,6 @@ const Courses = () => {
   return (
     <div>
         <Navbar/>
-        <h1>
-            Course page coming soon!
-        </h1>
         <Video/>
         <CourseInfo/>
         <CTA/>
