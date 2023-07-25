@@ -23,7 +23,7 @@ const CustomFormTop = ({ status, message, className, style, onSubmitted }) => {
         <button onClick={submit}>Submit</button>
       </div>
       <div className="eleviq__header-content__input-feedback">
-        {status === "sending" && <div style={{ color: "blue" }}>Sending...</div>}
+        {status === "sending" && <div style={{ color: "white" }}>Sending...</div>}
         {status === "error" && (
           <div
             style={{ color: "red" }}
@@ -32,7 +32,7 @@ const CustomFormTop = ({ status, message, className, style, onSubmitted }) => {
         )}
         {status === "success" && (
           <div
-            style={{ color: "green" }}
+            style={{ color: "white" }}
             dangerouslySetInnerHTML={{ __html: message }}
           />
         )}

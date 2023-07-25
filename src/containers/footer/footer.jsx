@@ -17,8 +17,7 @@ const Footer = () => (
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Get in touch</h4>
-        <p>9915 Murray Lndg, Missouri City, TX, USA, 77459</p>
-        <p>+1 (713) 492 1343</p>
+        <p>P.O. Box 131294 Houston, TX, 77219</p>
         <p>contact@eleviq.ai</p>
       </div>
     </div>

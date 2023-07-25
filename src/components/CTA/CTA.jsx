@@ -10,7 +10,7 @@ const CTA = () => (
 	<>
 	<div className="eleviq__cta">
     	<div className="eleviq__cta-content">
-      	<p>Get <u>70% off</u> before we launch August 12th</p>
+      	<p>Get <u>70% off</u> on our course: Start a Game Studio</p>
       	<h3>Join our Mailing List for Exclusive Discounts.</h3>
     	</div>
 		<MailchimpSubscribe

@@ -7,22 +7,22 @@ const text_color_hex = "#333333";
 const featuresData = [
   {
     title: 'ChatGPT Optimization',
-    text: "We will teach you how to leverage ChatGPT to save you time at every step. No need to spend hours brainstorming, debugging, or setting up a marketing strategy.",
+    text: "Discover how to utilize AI tools to streamline your workflow, saving valuable time at each stage. Say goodbye to extensive brainstorming, debugging, and marketing strategy setup.",
 	text_color: text_color_hex
   },
   {
     title: 'Game Design',
-    text: 'Learn how the best design their games. Make genuinely enjoyable games that evoke emotion.',
+    text: 'Acquire insights from the best in the field on crafting games that genuinely captivate players and evoke emotions, ensuring a truly enjoyable experience.',
 	text_color: text_color_hex
   },
   {
     title: 'Game Development',
-    text: "Get familiar with popular game engines like Unreal Engine. We'll take you through visual scripting that can be understood by non-programmers.",
+    text: "Gain proficiency in popular game engines like Unity. We'll guide you through visual scripting techniques accessible even to non-programmers.",
 	text_color: text_color_hex
   },
   {
     title: 'Be an Entrepreneur',
-    text: "Learn how to build a business from top to bottom. You'll learn the most modern entreprenurial principles to give you an edge on your competition.",
+    text: "From start to finish, learn the most cutting-edge entrepreneurial principles to build a successful business. Gain a competitive edge over your peers in the modern business landscape.",
 	text_color: text_color_hex
   },
 ];
@@ -30,8 +30,8 @@ const featuresData = [
 const Features = () => (
   <div className="eleviq__features section__padding" id="course">
     <div className="eleviq__features-heading">
-      <h1 className="gradient__text">Make a Profitable Game Company</h1>
-      <p><b>Course: How to Make a Game Company</b></p>
+      <h1 className="gradient__text">Start a Game Studio</h1>
+      <p><b>Our course on how to build a game studio that works.</b></p>
     </div>
     <div className="eleviq__features-container">
       {featuresData.map((item, index) => (

@@ -3,15 +3,15 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css';
 import logo from '../../assets/logo-color-cropped-28-5.png';
 
-const gumroadProductLink = 'https://eleviq.gumroad.com/l/how-to-make-a-game-company';
+const gumroadProductLink = 'https://eleviq.gumroad.com/l/how-to-build-a-game-studio';
 
 const Menu = () => (
     <>
     <p><a href = "/">Home</a></p>
-    <p><a href = "/courses">Course</a></p>
-    <p><a href = " #ChatGPT">Using ChatGPT</a></p>
-    <p><a href = "#learn">Instructors</a></p>
-    <p><a href = "#mail">Mailing List</a></p>
+    <p><a href = "/courses">Course: Start a Game Studio</a></p>
+    <p><a href = "https://www.eleviq.ai/#ChatGPT">Using ChatGPT</a></p>
+    <p><a href = "https://www.eleviq.ai/#learn">Instructors</a></p>
+    <p><a href = "https://www.eleviq.ai/#mail">Mailing List</a></p>
     </>
 )
 

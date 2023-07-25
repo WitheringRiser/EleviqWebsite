@@ -9,7 +9,7 @@ const Learn = () => {
 			
 			<div className = "eleviq__learn-content">
 				<h1 className="gradient-text">Learn from People who Have Built.</h1>
-				<p>Learn from people who have built games and businesses generating over $500k revenue. All of our instructor come with Master's and PhD's from top universities like Duke.</p>
+				<p>Learn from those who have successfully built games and businesses generating over $500k in revenue. Our instructors are highly qualified, holing Master's and Ph.D. degrees from prestigious universities such as Duke.</p>
 			</div>
 			<div className="eleviq__learn-image">
 				<img src = {learnImage}/>

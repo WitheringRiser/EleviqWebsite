@@ -6,7 +6,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 
-const gumroadProductLink = 'https://eleviq.gumroad.com/l/how-to-make-a-game-company';
+const gumroadProductLink = 'https://eleviq.gumroad.com/l/how-to-build-a-game-studio';
 
 function CourseAccordion() {
   return (
@@ -51,7 +51,7 @@ function CourseAccordion() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            <Menu2/>
+            <Menu3/>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -66,7 +66,7 @@ function CourseAccordion() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            <Menu2/>
+            <Menu4/>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -81,7 +81,7 @@ function CourseAccordion() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            <Menu2/>
+            <Menu5/>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -160,7 +160,7 @@ export default function CourseInfo() {
     <div className="eleviq__ section__margin">
       <div className="eleviq__courseinfo">
           <div className="eleviq__courseinfo-container">
-              <h1>Course: How to Make a Game Company</h1>
+              <h1>Course: How to Start a Game Studio</h1>
               <h4>You'll learn how to discover, develop, setup, and sell your game as part of your own game studio. Enroll today for a limited-time discount!</h4>
               <p>If you were to learn all this independently, it would take 100 hours piecemealing sources of design, development, business, and ChatGPT. And then 100 hours of trial and error as you realize some pieces don't fit, you've missed context, and so on. We've made it easy to learn, easy to remember, and easy to put into practice.</p>
               <div className="eleviq__courseinfo-learningoutcomes1">
@@ -169,7 +169,7 @@ export default function CourseInfo() {
                   <p>✓ Question optimization with ChatGPT</p>
                   <p>✓ Understand what direction to take with ChatGPT</p>
                   <p>✓ Create your entire marketing plan with ChatGPT</p>
-                  <p>✓ Find and brainstorm any ideas with ChatGPT</p>
+                  <p>✓ Find and brainstorm any ideas with AI tools</p>
                   <p>✓ Design a genuinely enjoyable game that evokes emotion</p>
                   <p>✓ Understand game design principles and elements</p>
                   <p>✓ Develop a foundational understanding of game mechanics and dynamics</p>
@@ -191,12 +191,12 @@ export default function CourseInfo() {
               
               <h2>Your instructors:</h2>
               <h4>Lukas Brazdeikis</h4>
-              <p>Hi I'm Lukas. I've built two web-based games and have experience building other software startups that have generated $350K revenue anually.</p>
+              <p>Hi I'm Lukas. I've built a game studio and two web-based games. I also have experience building other software startups that have generated $350K revenue anually.</p>
               <h4>Jiajun Yu</h4>
               <p>Hello I'm Jiajun. I'm a second year masters student at Duke with a full-ride scholarship. I have a big passion in game design and development.</p>
               <div className="eleviq__buyboxlower">
                   <div className="eleviq__buyboxlower-content">
-                      <h2>How to Make a Game Company</h2>
+                      <h2>How to Start a Game Studio</h2>
                       <h1><strike>$200</strike> <span className = "eleviq__buyboxlower-content-60"> $60</span></h1>
                       <p>70% off for the beta launch</p>
                       <p>14-day money-back guarunteed</p>
@@ -209,7 +209,7 @@ export default function CourseInfo() {
       </div>
       <div className="eleviq__buybox">
           <div className="eleviq__buybox-content">
-              <h2>How to Make a Game Company</h2>
+              <h2>How to Start a Game Studio</h2>
               <h1><strike>$200</strike> <span className = "eleviq__buybox-content-60"> $60</span></h1>
               <p>70% off for the beta launch</p>
               <p>14-day money-back guaruntee</p>
