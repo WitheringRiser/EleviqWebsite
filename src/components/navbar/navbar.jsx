@@ -9,9 +9,7 @@ const Menu = () => (
     <>
     <p><a href = "/">Home</a></p>
     <p><a href = "/courses">Course: Start a Game Studio</a></p>
-    <p><a href = "https://www.eleviq.ai/#ChatGPT">Using ChatGPT</a></p>
-    <p><a href = "https://www.eleviq.ai/#learn">Instructors</a></p>
-    <p><a href = "https://www.eleviq.ai/#mail">Mailing List</a></p>
+    <p><a href = "/FAQ">FAQ</a></p>
     </>
 )
 

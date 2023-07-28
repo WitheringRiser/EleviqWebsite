@@ -29,11 +29,11 @@ code {
   --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
   --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
   
-  --color-nav: #f5dca2;
-  --color-bg: #f5dca2;
+  --color-nav: #efd9b9;
+  --color-bg: #efd9b9;
   --color-bg-dark: #222222;
-  --color-footer : #292c7c;
-  --color-blue: #292c7c;
+  --color-footer : #1c427a;
+  --color-blue: #1c427a;
   --color-footer-real : #ffffff;
   --color-textbox-light: #ffffff;
   --color-blog: #042c54;
@@ -41,7 +41,7 @@ code {
   --color-text-dark: #000000;
   --color-text-light: #dddddd;
   --color-subtext: #FF8A71;
-  --color-button: #292c7c;
+  --color-button: #203a77;
   --color-textbox: #eeeeee
 }
 

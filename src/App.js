@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 import {Brand, CTA, Feature, Navbar} from './components';
 import {Footer, Header, Course, GPT, Features, Learn} from './containers';
-import {Home, Courses} from './pages';
+import {Home, Courses, FAQ} from './pages';
 import { BrowserRouter as Router, Routes, Route }
     from 'react-router-dom';
 
@@ -17,6 +17,7 @@ function App() {
           <Routes>
               <Route exact path='/' element={<Home/>} />
               <Route path='/courses' element={<Courses/>} />
+              <Route path='/FAQ' element={<FAQ/>} />
           </Routes>
       </Router>
       </div>

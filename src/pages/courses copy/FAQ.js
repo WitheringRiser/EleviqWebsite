@@ -1,14 +1,11 @@
-import {Brand, CTA, Feature, Navbar} from '../../components';
-import {Footer, Header, Course, GPT, Features, Learn} from '../../containers';
-import {Courses} from '../';
+import{Navbar, CTA} from '../../components';
+import{Footer} from '../../containers';
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route }
-    from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
-export default function Home() {
+const FAQ = () => {
   return (
-    <div className = "App">
+    <div>
       <Helmet>
         {/* Google tag (gtag.js) */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-M0YDH1W89K"></script>
@@ -21,16 +18,12 @@ export default function Home() {
           `}
         </script>
       </Helmet>
-        <div className = "bg">
-        <Navbar />
+        <Navbar/>
+        <FAQ/>
         <CTA/>
-        </div>
-      <Features/>
-      <Course/>
-      <GPT/>
-      <Learn/>
-      <Header/>
-      <Footer/>
+        <Footer/>
     </div>
   )
 }
+
+export default FAQ;
